@@ -1,4 +1,4 @@
-const CACHE = "vistacure-v13";
+const CACHE = "vistacure-v14";
 const FILES = [
   "index.html",
   "app.css",

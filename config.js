@@ -1,6 +1,7 @@
 /* API origin for this Vistacure frontend.
-   Leave it empty to call /api on the same host. That is the Python server
-   on this computer, and the phone on the same Wi-Fi.
-   When Vistacure backend has a stable public https address, set that origin
-   here with no trailing slash. Do not put a temporary tunnel address here. */
-window.VISTACURE_API_BASE = "";
+   Leave it empty to call /api on the same host (this computer, or a phone
+   on the same Wi-Fi).
+   The address below is the home ledger on this PC, reached over HTTPS.
+   No trailing slash. It works only while this PC, server.py, and the
+   tunnel process stay running. A new tunnel prints a new address. */
+window.VISTACURE_API_BASE = "https://enhancing-delays-illustrations-abc.trycloudflare.com";
